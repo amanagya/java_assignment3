@@ -11,7 +11,7 @@ public class Sum
         {
             x= n%10;
             d = d+x;
-            x= (n/10);
+            n= (n/10);
         }
         return d;
     }
